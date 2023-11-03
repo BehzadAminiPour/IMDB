@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    height: 75px;
+    padding: 0 3.2rem;
+}

@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list li {
+  display: flex;
+
+  padding: 5px;
+}
+.list img {
+  width: 35%;
+}
+.list h3 {
+  font-size: 1.7rem;
+}
+.list.list-movies li {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.list.list-movies li:hover {
+  background-color: #343a40;
+}
